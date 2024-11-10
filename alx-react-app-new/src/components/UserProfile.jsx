@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -21,9 +20,3 @@ UserProfile.propTypes = {
 export default UserProfile;
 
 
-
-
-
-
-
- 
