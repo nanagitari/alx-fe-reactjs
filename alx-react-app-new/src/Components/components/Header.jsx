@@ -1,9 +1,16 @@
 
 import React from 'react';
 
-function Header() {
+const Footer = () => {
+  const footerStyle = {
+      textAlign: 'center',
+      backgroundColor: 'navy',
+      color: 'white',
+     
+  };
+
   return (
-    <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center' }}> 
+    <header style={footerStyle}> 
       <h1>My Favorite Cities</h1>
     </header>
   );
