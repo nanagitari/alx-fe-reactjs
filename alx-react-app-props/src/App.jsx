@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import React from 'react';
 import ProfilePage from './components/ProfilePage';
-import UserContext from './UserContext';
+import UserContext from './components/UserContext';
 
 function App() {
   const userData = {
