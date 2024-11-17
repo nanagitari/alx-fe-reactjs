@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import React from 'react';
 import ProfilePage from './components/ProfilePage';
 import UserContext from './UserContext';
@@ -20,7 +21,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
